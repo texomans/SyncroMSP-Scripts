@@ -1,3 +1,5 @@
+## Run as SYSTEM
+
 ## Change the below username to the specified username on the machine or use variable in your RMM
 $Username = "SOME-USERNAME"
  
