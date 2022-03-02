@@ -1,3 +1,5 @@
+## Run as SYSTEM
+
 ## This will disable the Control Panel and Windows Settings Module COMPLETELY. Run again changing variable to reenable them.
 ##
 ## Variable needed in RMM or script down below = $Enabled0Disabled1
