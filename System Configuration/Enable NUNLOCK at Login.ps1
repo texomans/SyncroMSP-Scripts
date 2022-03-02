@@ -1,3 +1,5 @@
+## Run as SYSTEM
+
 #Set NumLock ON at Windows login screen
 
 $path = 'Registry::\HKEY_USERS\.DEFAULT\Control Panel\Keyboard\'
