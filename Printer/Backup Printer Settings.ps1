@@ -1,3 +1,5 @@
+## Run as SYSTEM
+## Must add variable $PrinterName
 # Backup current settings of the specified printer to C:\temp\Configs\Printers\"Computer Name" - "Printer Name" - PrinterSettings.dat
 
 $ComputerName = [Environment]::MachineName
