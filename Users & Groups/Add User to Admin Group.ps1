@@ -1,3 +1,5 @@
+## Run as SYSTEM
+
 $Username = "SOME-USERNAME"
 $group = "Administrators"
 
