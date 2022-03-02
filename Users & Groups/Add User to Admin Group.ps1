@@ -1,3 +1,4 @@
+$Username = "SOME-USERNAME"
 $group = "Administrators"
 
 Write-Host "Adding local user $Username to $group."
