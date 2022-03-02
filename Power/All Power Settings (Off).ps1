@@ -1,3 +1,5 @@
+## Run as SYSTEM
+
 powercfg /change monitor-timeout-ac 60
 powercfg /change monitor-timeout-dc 10
 
