@@ -1,3 +1,5 @@
+## Run as SYSTEM
+
 Import-Module $env:SyncroModule
 
 try {
