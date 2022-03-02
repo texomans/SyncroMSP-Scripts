@@ -1,3 +1,5 @@
+## Run as SYSTEM
+
 Import-Module $env:SyncroModule
 
 (get-wmiobject -namespace root\CIMv2\Security\MicrosoftVolumeEncryption -class Win32_EncryptableVolume -filter "DriveLetter = `"$env:SystemDrive`"").ProtectionStatus -eq 1 | Tee-Object -Variable Encrypt_Status
