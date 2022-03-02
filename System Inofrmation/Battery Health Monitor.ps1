@@ -1,3 +1,5 @@
+## Run as SYSTEM
+
 $BatteryReport = "C:\temp\batteryreport.xml"
 Import-Module $env:SyncroModule
 & powercfg /batteryreport /XML /OUTPUT $BatteryReport
