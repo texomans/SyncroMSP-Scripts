@@ -1,3 +1,5 @@
+## Run as SYSTEM
+
 Import-Module $env:SyncroModule
 $SaveLocation = "C:\temp"
 $FolderLocation = "Bluescreenview"
