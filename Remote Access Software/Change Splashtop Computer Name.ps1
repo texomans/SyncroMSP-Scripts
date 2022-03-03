@@ -1,4 +1,5 @@
-## Run as SYSTEM
+## Run as: SYSTEM
+## Max Script Time: 10 Minutes
 ## Needed variable is $computername
 
 :CheckOS
