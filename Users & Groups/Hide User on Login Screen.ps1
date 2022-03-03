@@ -1,8 +1,7 @@
-## Run as SYSTEM
+## Run as: SYSTEM
+## Max Script Time: 2 Minutes
+## Variable Needed: $UserName
 
-## Change the below username to the specified username on the machine or use variable in your RMM
-$Username = "SOME-USERNAME"
- 
 $registryPath1 = "HKLM:\Software\Microsoft\Windows NT\CurrentVersion\Winlogon\SpecialAccounts"
 $registryPath2 = "HKLM:\Software\Microsoft\Windows NT\CurrentVersion\Winlogon\SpecialAccounts\UserList"
 $registryPath3 = "HKLM:\Software\Microsoft\Windows NT\CurrentVersion\Winlogon\SpecialAccounts\UserList\$UserName"
