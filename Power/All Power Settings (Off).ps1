@@ -1,5 +1,6 @@
-## Run as SYSTEM
-
+## Run as: SYSTEM
+## Max Script Time: 2 Minutes
+## Turns off disk sleep, PC sleep and hibernate.
 powercfg /change monitor-timeout-ac 60
 powercfg /change monitor-timeout-dc 10
 
