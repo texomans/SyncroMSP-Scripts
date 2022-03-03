@@ -1,4 +1,7 @@
-## Run as SYSTEM
+## Run as: SYSTEM
+## Max Script Time: 10 Minutes
+## Monitors battery health by comparing the reported last charge value to the maximum charge value.
+## Set your own percentage as an acceptable failure rate. E.g. "50" is 50% health.
 
 $BatteryReport = "C:\temp\batteryreport.xml"
 Import-Module $env:SyncroModule
