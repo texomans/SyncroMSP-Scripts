@@ -4,8 +4,6 @@
 ## You can also use what you know about the name, but that may lead to the wroing application being uninstalled. Example would be "Continuum" for the RMM, but
 ## in fact could uninstall "Boris FX Continuum Plug-ins 11 for Corel VideoStudio 2018". So, USE WITH CAUTION!
 
-$uninstallProg = "SOME_PROGRAM_NAME"
-
 Import-Module $env:SyncroModule
 #attempt to uninstall an application via powershell
 $GetApps = Get-WmiObject -Class Win32_Product | Where-Object { $_.Name -Contains $uninstallProg }
