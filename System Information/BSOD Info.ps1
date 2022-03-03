@@ -1,4 +1,7 @@
-## Run as SYSTEM
+## Run as: SYSTEM
+## Max Script Time: 10 Minutes
+## Monitors BSODs and alerts with the exact reason why the BSOD has occurred.
+## See https://www.cyberdrain.com/monitoring-with-powershell-monitoring-bsods-without-event-viewer/ for more info.
 
 Import-Module $env:SyncroModule
 $SaveLocation = "C:\temp"
