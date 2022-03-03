@@ -1,3 +1,6 @@
+## Run as: SYSTEM
+## Max Script Time: 10 Minutes
+
 <#
 .Synopsis
   Forces the Syncro agent to perform a Full Sync.
