@@ -1,5 +1,5 @@
-## Run as Logged In User
-## This just tells you how long the mouse or keyboard have not been touched.
+## Run as: SYSTEM
+## Max Script Time: 1 Minutes
 
 
 Add-Type @'
