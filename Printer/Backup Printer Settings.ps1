@@ -1,4 +1,5 @@
 ## Run as SYSTEM
+## Max Script Time: 2 Minutes
 ## Must add variable $PrinterName
 # Backup current settings of the specified printer to C:\temp\Configs\Printers\"Computer Name" - "Printer Name" - PrinterSettings.dat
 
