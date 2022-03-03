@@ -1,8 +1,7 @@
-## Run as SYSTEM
-
+## Run as: SYSTEM
+## Max Script Time: 10 Minutes
+## Variable Needed: $Enabled0Disabled1
 ## This will disable the Control Panel and Windows Settings Module COMPLETELY. Run again changing variable to reenable them.
-##
-## Variable needed in RMM or script down below = $Enabled0Disabled1
 ## Disabled means Control Panel / Windows Settings module will be disabled.
 
 # Get the RunAsUser Module if not installed
