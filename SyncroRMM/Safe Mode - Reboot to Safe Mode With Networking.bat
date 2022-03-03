@@ -1,4 +1,5 @@
 REM  -Run as SYSTEM
+REM  -Max Script Time: 2 Minutes
 REM  -This allows you to reboot the machine into safe mode and still be able to remotely access the machine.
 REM  -NOTE: This script is set up to use Spashtop as the remote access tool. I believe the Backgrouding tool access will work as well.
 
