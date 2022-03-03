@@ -1,4 +1,5 @@
-## Run as SYSTEM
+## Run as: SYSTEM
+## Max Script Time: 1 Minutes
 
 Import-Module $env:SyncroModule
 
