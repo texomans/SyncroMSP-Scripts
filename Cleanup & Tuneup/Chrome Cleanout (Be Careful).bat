@@ -1,5 +1,6 @@
 REM Run as: Logged On User
 REM Max Script Time: 15 Minutes
+REM Be careful, this wipes Chrome COMPLETELY like new install.
 
 @echo off
 
