@@ -1,4 +1,5 @@
-## Run as SYSTEM
-## 2 Variables are needed, obviously. $Username and $Password
+## Run as: SYSTEM
+## Max Script Time: 1 Minutes
+## Variables Needed: $Username and $Password
 
 net user $Username $Password
