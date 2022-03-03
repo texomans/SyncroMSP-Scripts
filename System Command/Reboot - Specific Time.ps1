@@ -1,4 +1,5 @@
-## Run as SYSTEM
+## Run as: SYSTEM
+## Max Script Time: 2 Minutes
 # Add variable $TimeNumberAMPM. Named it that so that we would remember how to input it.
 
 # Use this script to reboot a Windows device at a specified time. Use Time+AM/PM such as 8PM or 8:15PM
