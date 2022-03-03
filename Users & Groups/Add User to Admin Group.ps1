@@ -1,6 +1,7 @@
-## Run as SYSTEM
+## Run as: SYSTEM
+## Max Script Time: 1 Minutes
+## Variable Needed: $Username
 
-$Username = "SOME-USERNAME"
 $group = "Administrators"
 
 Write-Host "Adding local user $Username to $group."
