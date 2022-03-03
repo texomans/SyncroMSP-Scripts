@@ -1,5 +1,5 @@
 ## Run as: SYSTEM
-## Max Script Time: 10 Minutes
+## Max Script Time: 1 Minutes
 ## Variable Needed: $Username
 
 $group = "Remote Desktop Users"
