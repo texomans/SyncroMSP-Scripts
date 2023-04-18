@@ -12,7 +12,7 @@ if(!(Test-Path -Path $TARGETDIR )){
      $h=get-item "c:\temp" -Force
      $h.attributes="Hidden"
 } 
-# Check for executable - if it doesn't exist, download it from Nirsoft and then extract it
+# Check for executable - if it doesn't exist, download it and then extract it
 $thisfile = "c:\temp\3rdparty\usbmmidd_v2.zip"
 if(!(Test-Path $thisfile)){
         write-output "File doesn't exist yet, downloading file now"
