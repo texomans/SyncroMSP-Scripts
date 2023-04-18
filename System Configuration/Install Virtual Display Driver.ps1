@@ -1,19 +1,7 @@
 #Import Syncro Function so we can create an RMM alert if out of date
 Import-Module $env:SyncroModule
+
 Function Getusbmmidd_v2 {
-<#
-.CREATED BY:
-    Steven Grabowski
-.CREATED ON:
-    3/4/2018
-.Synopsis
-    Downloads Nirsoft Task Schedule Viewer - If it is not already downloaded to $TARGETDIR
-    Should be scheduled to run on a bluescreen or app crash
-.FUNCTIONALITY
-   PowerShell v2
-#>
-
-
 # Define 'maintenance' directory - if it doesn't exist, create it
 $TARGETDIR = "c:\temp\3rdparty"
 $filelocation = "c:\temp\3rdparty\usbmmidd_v2.zip"
